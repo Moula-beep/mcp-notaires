@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Bot Carte Grise</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 2rem;
+        max-width: 900px;
+      }
+      code {
+        background: #f4f4f4;
+        padding: 0.1rem 0.3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Demo bot Q/R Carte Grise</h1>
+    <p>
+      Cette page sert de demo locale. Le widget ci-dessous appelle <code>/api/chat</code>.
+    </p>
+    <p>
+      Exemples: <code>PACA 3 CV</code>, <code>statistiques immatriculations carburant</code>,
+      <code>qui est le proprietaire de la plaque AB-123-CD</code>.
+    </p>
+
+    <script src="/chat-widget.js"></script>
+    <script>
+      window.CarteGriseBot.init({
+        endpoint: "/api/chat",
+        title: "Assistant Carte Grise"
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "carte-grise-bot-mcp",
+  "version": "1.0.0",
+  "description": "MVP chatbot carte grise with data.gouv MCP integration",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

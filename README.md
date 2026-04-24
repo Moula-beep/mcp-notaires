@@ -1,6 +1,6 @@
 # Bot Q/R Carte Grise (MCP Etat)
 
-MVP de chatbot pour un site carte grise, avec:
+MVP de chatbot pour professions réglementées basé sur le mcp data.gouv de l'Etat, avec:
 
 - reponses metier (prix taxe regionale, FAQ carte grise),
 - garde-fous legaux (pas de donnees nominatives SIV),
